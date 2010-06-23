@@ -11,15 +11,14 @@
 
 @interface frameGrabAppDelegate : NSObject <NSApplicationDelegate>
 {
-	QTCaptureSession					*_session;
-	QTCaptureDevice						*_device;
-	QTCaptureDeviceInput				*_deviceInput;
-	QTCaptureDecompressedVideoOutput	*_videoOutput;
-			
-	BOOL								_initOK;
-	BOOL								_frameRecieved;
+	CVImageBufferRef		_currentImageBuffer;
+	
+	BOOL					_frameRecieved;
+	BOOL					_busy;
 }
 
 - (IBAction)		grabFrame: (id) inSender;
+
+@property (assign) BOOL		busy;
 
 @end

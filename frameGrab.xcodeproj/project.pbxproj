@@ -12,6 +12,8 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C94701E411D289CE00C5BAF0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94701E311D289CE00C5BAF0 /* CoreVideo.framework */; };
+		C94701F911D28A0000C5BAF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94701F811D28A0000C5BAF0 /* QuartzCore.framework */; };
 		C99A745511D143AF0067DF67 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A745411D143AF0067DF67 /* QTKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* frameGrab-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "frameGrab-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* frameGrab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frameGrab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94701E311D289CE00C5BAF0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C94701F811D28A0000C5BAF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C99A745411D143AF0067DF67 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -38,6 +42,8 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				C99A745511D143AF0067DF67 /* QTKit.framework in Frameworks */,
+				C94701E411D289CE00C5BAF0 /* CoreVideo.framework in Frameworks */,
+				C94701F911D28A0000C5BAF0 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +64,8 @@
 			children = (
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				C99A745411D143AF0067DF67 /* QTKit.framework */,
+				C94701E311D289CE00C5BAF0 /* CoreVideo.framework */,
+				C94701F811D28A0000C5BAF0 /* QuartzCore.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
