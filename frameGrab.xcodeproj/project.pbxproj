@@ -156,7 +156,11 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "frameGrab" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* frameGrab */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,6 +228,7 @@
 				INFOPLIST_FILE = "frameGrab-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = frameGrab;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -238,6 +243,7 @@
 				INFOPLIST_FILE = "frameGrab-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = frameGrab;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
